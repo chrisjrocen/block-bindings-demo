@@ -18,7 +18,9 @@ final class Init {
 	 * @return array Full list of classes.
 	 */
 	public static function get_services() {
-		return array();
+		return array(
+			Admin\BlockBindingsDemo::class,
+		);
 	}
 
 	/**
